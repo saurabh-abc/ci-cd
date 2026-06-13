@@ -14,3 +14,6 @@ app.get('/api', (req, res) => {
 app.get('/api/updated', (req, res) => {
   res.send('Huraahhhhhh ci/cd reflected!');
 });
+app.get('/api/v1', (req, res) => {
+  res.send('V1-------------!');
+});
