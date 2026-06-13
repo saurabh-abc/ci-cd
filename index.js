@@ -10,3 +10,6 @@ app.listen(port, () => {
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
+app.get('/updated', (req, res) => {
+  res.send('Huraahhhhhh ci/cd reflected!');
+});
