@@ -8,9 +8,9 @@ app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
 
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
   res.send('ROOT CHANGED');
 });
-app.get('/updated', (req, res) => {
+app.get('/api/updated', (req, res) => {
   res.send('Huraahhhhhh ci/cd reflected!');
 });
