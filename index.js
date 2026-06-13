@@ -17,3 +17,6 @@ app.get('/api/updated', (req, res) => {
 app.get('/api/v1', (req, res) => {
   res.send('V1-------------!');
 });
+app.get('/api/v2', (req, res) => {
+  res.send('V2-------------!');
+});
