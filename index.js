@@ -1,3 +1,4 @@
+console.log(__filename);
 const express = require('express');
 const app = express();
 const connectDB = require('./db');
@@ -8,8 +9,8 @@ app.listen(port, () => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('ROOT CHANGED');
 });
-app.get('/api/updated', (req, res) => {
+app.get('/updated', (req, res) => {
   res.send('Huraahhhhhh ci/cd reflected!');
 });
